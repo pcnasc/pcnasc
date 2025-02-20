@@ -3,10 +3,10 @@
 
 <h2>🎯 Technical Skills</h2>
 <ul>
-    <li><strong>Programming Languages:</strong> Python (Intermediate), C (Beginner), SQL (Beginner), JavaScript (Beginner)</li>
+    <li><strong>Programming Languages:</strong> Python (Intermediate), C (Beginner), SQL (Beginner), JavaScript (Beginner), Ross (Begginner)</li>
     <li><strong>Cloud Computing:</strong> Google Cloud Services (Intermediate)</li>
     <li><strong>Computer Vision & AI:</strong> OpenCV (Beginner), YOLO (Beginner)</li>
-    <li><strong>Engineering Tools:</strong> CAD, PCB Design</li>
+    <li><strong>Engineering Tools:</strong> CAD: SolidWorks, Fusion360. PCB Design: KiCad, Fusion. MathLab</li>
 </ul>
 
 <h2>🎓 Education</h2>
@@ -21,11 +21,11 @@
     <li><strong>Cloud Services Implementation: Google Cloud Foundations</strong> – SENAI (2023)</li>
 </ul>
 
-<h2>💡 Academic & Professional Experience</h2>
+<h2>💡 Achievements & Academic Experience</h2>
 <ul>
     <li><strong>Scientific Initiation</strong> – FIAP (2023)</li>
     <li><strong>Raízen Innovation Challenge</strong> – FIAP (2023)</li>
-    <li><strong>SPI MetaIndústria - Challenge GenAI Champions</strong> – FIAP (2024)</li>
+    <li><strong>SPI + ABDI MetaIndústria - Challenge GenAI CHAMPIONS </strong> – FIAP (2024)</li>
 </ul>
 
 <h2>📫 Contact Me</h2>
