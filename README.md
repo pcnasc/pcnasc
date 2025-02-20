@@ -12,7 +12,7 @@
 <h2>🎓 Education</h2>
 <ul>
     <li><strong>B.Sc. Computer Engineering</strong> – FIAP (2023 - 2027)</li>
-    <li><strong>IT Technician</strong> – SENAI (2021 - 2022)</li>
+    <li><strong>IT Technician</strong> – SENAI (2020 - 2022)</li>
 </ul>
 
 <h2>📚 Courses & Certifications</h2>
