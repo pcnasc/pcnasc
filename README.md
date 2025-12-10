@@ -1,5 +1,5 @@
 <h2>🚀 About Me</h2>
-<p>I am a Computer Engineering student at <strong>Faculdade de Informática e Administração Paulista (FIAP)</strong> with a strong passion for <strong>Hardware, Artificial Intelligence, Robotics, and Cybersecurity</strong>. I enjoy solving real-world problems through technology and have hands-on experience in designing autonomous systems and robotics applications.</p>
+<p>I am a Computer Engineering student at <strong>Faculdade de Informática e Administração Paulista (FIAP)</strong> with a strong passion for <strong>Hardware, Artificial Intelligence and Robotics. I enjoy solving real-world problems through technology and have hands-on experience in designing autonomous systems and robotics applications.</p>
 
 <h2>🎯 Technical Skills</h2>
 <ul>
