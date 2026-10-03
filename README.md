@@ -30,7 +30,10 @@
 
 <h2>🐍 Contribution Snake</h2>
 <p>
-    <img src="https://raw.githubusercontent.com/pcnasc/pcnasc/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pcnasc/pcnasc/output/github-contribution-grid-snake-dark.svg" />
+        <img src="https://raw.githubusercontent.com/pcnasc/pcnasc/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+    </picture>
 </p>
 
 <h2>📫 Contact Me</h2>
