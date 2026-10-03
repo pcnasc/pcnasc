@@ -28,6 +28,11 @@
     <li><strong>SPI + ABDI MetaIndústria - Challenge GenAI CHAMPIONS </strong> – FIAP (2024)</li>
 </ul>
 
+<h2>🐍 Contribution Snake</h2>
+<p>
+    <img src="https://raw.githubusercontent.com/pcnasc/pcnasc/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+</p>
+
 <h2>📫 Contact Me</h2>
 <ul>
     <li>📍 São Paulo, Brazil</li>
