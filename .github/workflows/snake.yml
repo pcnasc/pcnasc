@@ -1,30 +1,59 @@
-name: Generate Contribution Snake
+# Generate GitHub profile contribution snake
+name: Contribution Snake
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      - name: Checkout
+        uses: actions/checkout@b4ffde65f46336abc8f6d2607af72e8137460f5c # v4.2.1
+
+      - name: Generate Snake (Grid)
+        uses: platane/snk@2875ac7d1b3cf2e55f0a02bd41e5df0fc96d8dd5 # v3.2.0
+        id: grid
         with:
           github_user_name: pcnasc
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          dark_out_path: dist/github-contribution-grid-snake-dark.svg
+          options:
+            filename: github-contribution-grid-snake.svg
+            dark_filename: github-contribution-grid-snake-dark.svg
+            quality: 2
+            range: all
+            dots_side_margin: 2
+            padding: 8
+            colors:
+              [
+                "#e6e6e3",
+                "#c8c6c1",
+                "#a09c94",
+                "#6e685e",
+                "#3d372c",
+              ]
 
-      - name: Publish snake assets to output branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Generate Snake Animation
+        uses: Platane/snk@2875ac7d1b3cf2e55f0a02bd41e5df0fc96d8dd5 # v3.2.0
+        id: snake
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: dist
-          force_orphan: true
+          github_user_name: pcnasc
+          svg_out_path: dist/github-user-contributions.svg
+          animations:
+            coco
+
+      - name: Commit & Push (Grid)
+        if: always()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          mv dist/* .
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git add github-user-contributions.svg
+          git commit -m "ci(github): update contribution snake" || echo "no changes"
+          git push || echo "push failed, likely no changes"

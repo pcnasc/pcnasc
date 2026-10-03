@@ -1,46 +1,94 @@
-<h2>🚀 About Me</h2>
-<p>I am a Computer Engineering student at <strong>Faculdade de Informática e Administração Paulista (FIAP)</strong> with a strong passion for <strong>Hardware, Artificial Intelligence and Robotics. I enjoy solving real-world problems through technology and have hands-on experience in designing autonomous systems and robotics applications.</p>
+# Pedro Nascimento
 
-<h2>🎯 Technical Skills</h2>
-<ul>
-    <li><strong>Programming Languages:</strong> Python (Intermediate), C (Beginner), SQL (Beginner), JavaScript (Beginner), Ross (Begginner)</li>
-    <li><strong>Cloud Computing:</strong> Google Cloud Services (Intermediate)</li>
-    <li><strong>Computer Vision & AI:</strong> OpenCV (Beginner), YOLO (Beginner)</li>
-    <li><strong>Engineering Tools:</strong> CAD: SolidWorks, Fusion360. PCB Design: KiCad, Fusion. MathLab</li>
-</ul>
+**Software Engineer · High-Concurrency Systems & Edge AI**
 
-<h2>🎓 Education</h2>
-<ul>
-    <li><strong>B.Sc. Computer Engineering</strong> – FIAP (2023 - 2027)</li>
-    <li><strong>IT Technician</strong> – SENAI (2020 - 2022)</li>
-</ul>
+<div align="left">
+  <a href="https://linkedin.com/in/pedrocnasc" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Pedr0cnasc-black?style=flat-square&logo=linkedin&color=0A66C2" alt="LinkedIn" />
+  </a>
+  <a href="mailto:pedroeng.nascimento@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-pedroeng.nascimento-%23EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://github.com/pcnasc" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-pcnasc-black?style=flat-square&logo=github&color=black" alt="GitHub" />
+  </a>
+  <a href="https://pedronascimento.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-pedronascimento.dev-%2307090C?style=flat-square&logo=next.js&color=black" alt="Portfolio" />
+  </a>
+</div>
 
-<h2>📚 Courses & Certifications</h2>
-<ul>
-    <li><strong>Harvard CS50</strong> – Harvard (Ongoing)</li>
-    <li><strong>Cloud Services Implementation: Google Cloud Foundations</strong> – SENAI (2023)</li>
-</ul>
+---
 
-<h2>💡 Achievements & Academic Experience</h2>
-<ul>
-    <li><strong>Scientific Initiation</strong> – FIAP (2023)</li>
-    <li><strong>Raízen Innovation Challenge</strong> – FIAP (2023)</li>
-    <li><strong>SPI + ABDI MetaIndústria - Challenge GenAI CHAMPIONS </strong> – FIAP (2024)</li>
-</ul>
+## Background
 
-<h2>🐍 Contribution Snake</h2>
-<p>
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pcnasc/pcnasc/output/github-contribution-grid-snake-dark.svg" />
-        <img src="https://raw.githubusercontent.com/pcnasc/pcnasc/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
-    </picture>
-</p>
+Computer Engineering student at FIAP (2023–2027) with a foundation from SENAI's IT Technician program. Currently building high-concurrency, low-latency acquiring services at **SumUp** — handling nationwide transaction throughput and interfacing directly with card schemes (Visa, Mastercard, Cielo) via RS2 protocols. Past experience includes enterprise systems at GOL Linhas Aéreas and multiple competition wins in innovation marathons spanning generative AI, computer vision, and industrial robotics.
 
-<h2>📫 Contact Me</h2>
-<ul>
-    <li>📍 São Paulo, Brazil</li>
-    <li>📧 <a href="mailto:pedroeng.nascimento@gmail.com">pedroeng.nascimento@gmail.com</a></li>
-    <li>🔗 <a href="https://linkedin.com/in/pedrocnasc" target="_blank">LinkedIn</a></li>
-</ul>
+Professional interests converge on financial infrastructure, health tech, deterministic software architectures, and any domain where precision under pressure is non-negotiable.
 
-<p>Feel free to explore my repositories and connect with me!</p>
+---
+
+## Stack
+
+| Category | Technologies |
+|---|---|
+| **Languages** | Go · Elixir · Erlang · Python · TypeScript · Java · C |
+| **Concurrency & Streaming** | Apache Kafka · High-Throughput Routing · RabbitMQ · Redis Streams |
+| **Infrastructure** | PostgreSQL · SQLite · MongoDB · Snowflake · AWS SQS · Docker |
+| **Intelligence** | ChromaDB RAG · Ollama (local LLMs) · Pydantic Validation · YOLO CV |
+| **Protocols & Hardware** | RS2 / Payment Protocols · J1939 CAN Bus · ESP32 Firmware · WebSockets |
+| **Observability** | Grafana · Elastic (ELK) · Schema Registry |
+
+---
+
+## Education
+
+### Faculdade de Informática e Administração Paulista (FIAP)
+**B.Sc. Computer Engineering** · 2023 – 2027 · São Paulo, BR
+
+### Centro Técnico de Educação Profissional SENAI
+**IT Technician** · 2020 – 2022
+
+---
+
+## Selected Repositories
+
+| Project | Lang | Stars | Forks |
+|---|:---:|:---:|:---:|
+| [Portfolio](https://github.com/pcnasc/Portfolio) | TypeScript | 0 | 0 |
+| [PneumaticSim](https://github.com/pcnasc/PneumaticSim) | Python | 0 | 0 |
+| [Panoramic Dental Data](https://github.com/pcnasc/panoramic-dental-data) | Python | 0 | 0 |
+| [MicroGrad](https://github.com/pcnasc/micrograd) | Python | 0 | 0 |
+| [Incubadora-FIAP](https://github.com/pcnasc/incubadora-fiap) | C++ | 0 | 0 |
+| [SmartRecycle](https://github.com/pcnasc/SmartRecycle) | Python | 0 | 0 |
+| [Ocean Monitoring System '24](https://github.com/pcnasc/Ocean_Monitoring_System.GS24) | Java | 0 | 0 |
+
+---
+
+## Certifications
+
+- **Google Cloud Foundations** — SENAI / GCP · 2023
+- **GCP Foundational Infrastructure** — Certification
+- **GCP Networks & Security** — Certification  
+- **GCP ML/AI Tasks** — Certification
+- **Harvard CS50** — Harvard (Ongoing)
+
+---
+
+## Competition Results
+
+| Event | Result | Year |
+|---|---|---|
+| Festo Digital Twin Challenge | 🥈 2nd Place (Team NewByte) | 2025 |
+| SPI + ABDI Gen AI Challenge | 🥇 1st Place (Team NewByte) | 2024 |
+| Google Cloud GenAI & FIAP Hackathon | 🥉 3rd Place | 2024 |
+| Raízen Innovation Challenge | Participante | 2023 |
+
+---
+
+## Activity
+
+<img src="https://raw.githubusercontent.com/pcnasc/pcnasc/main/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" width="100%" />
+
+---
+
+*Last updated automatically via GitHub Actions.*
