@@ -29,31 +29,14 @@ jobs:
             range: all
             dots_side_margin: 2
             padding: 8
-            colors:
-              [
-                "#e6e6e3",
-                "#c8c6c1",
-                "#a09c94",
-                "#6e685e",
-                "#3d372c",
-              ]
+            colors: "#e6e6e3,#c8c6c1,#a09c94,#6e685e,#3d372c"
 
-      - name: Generate Snake Animation
-        uses: Platane/snk@2875ac7d1b3cf2e55f0a02bd41e5df0fc96d8dd5 # v3.2.0
-        id: snake
-        with:
-          github_user_name: pcnasc
-          svg_out_path: dist/github-user-contributions.svg
-          animations:
-            coco
-
-      - name: Commit & Push (Grid)
+      - name: Commit & Push
         if: always()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           mv dist/* .
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
-          git add github-user-contributions.svg
           git commit -m "ci(github): update contribution snake" || echo "no changes"
           git push || echo "push failed, likely no changes"
