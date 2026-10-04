@@ -73,7 +73,7 @@ Professional interests converge on financial infrastructure, health tech, determ
 
 ## Activity
 
-<img src="https://raw.githubusercontent.com/pcnasc/pcnasc/main/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" width="100%" />
+<img src="https://raw.githubusercontent.com/pcnasc/pcnasc/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" />
 
 ---
 
