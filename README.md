@@ -50,27 +50,13 @@ Professional interests converge on financial infrastructure, health tech, determ
 
 ---
 
-## Selected Repositories
-
-| Project | Lang | Stars | Forks |
-|---|:---:|:---:|:---:|
-| [Portfolio](https://github.com/pcnasc/Portfolio) | TypeScript | 0 | 0 |
-| [PneumaticSim](https://github.com/pcnasc/PneumaticSim) | Python | 0 | 0 |
-| [Panoramic Dental Data](https://github.com/pcnasc/panoramic-dental-data) | Python | 0 | 0 |
-| [MicroGrad](https://github.com/pcnasc/micrograd) | Python | 0 | 0 |
-| [Incubadora-FIAP](https://github.com/pcnasc/incubadora-fiap) | C++ | 0 | 0 |
-| [SmartRecycle](https://github.com/pcnasc/SmartRecycle) | Python | 0 | 0 |
-| [Ocean Monitoring System '24](https://github.com/pcnasc/Ocean_Monitoring_System.GS24) | Java | 0 | 0 |
-
----
-
 ## Certifications
 
 - **Google Cloud Foundations** — SENAI / GCP · 2023
 - **GCP Foundational Infrastructure** — Certification
 - **GCP Networks & Security** — Certification  
 - **GCP ML/AI Tasks** — Certification
-- **Harvard CS50** — Harvard (Ongoing)
+- IA e Inteligência Computacional - FIAP
 
 ---
 
