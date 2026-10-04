@@ -1,42 +1,26 @@
-# Generate GitHub profile contribution snake
-name: Contribution Snake
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *" # every 12 hours
   workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@b4ffde65f46336abc8f6d2607af72e8137460f5c # v4.2.1
-
-      - name: Generate Snake (Grid)
-        uses: platane/snk@2875ac7d1b3cf2e55f0a02bd41e5df0fc96d8dd5 # v3.2.0
-        id: grid
+      - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: pcnasc
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          dark_out_path: dist/github-contribution-grid-snake-dark.svg
-          options:
-            filename: github-contribution-grid-snake.svg
-            dark_filename: github-contribution-grid-snake-dark.svg
-            quality: 2
-            range: all
-            dots_side_margin: 2
-            padding: 8
-            colors: "#e6e6e3,#c8c6c1,#a09c94,#6e685e,#3d372c"
-
-      - name: Commit & Push
-        if: always()
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          mv dist/* .
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
-          git commit -m "ci(github): update contribution snake" || echo "no changes"
-          git push || echo "push failed, likely no changes"
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
